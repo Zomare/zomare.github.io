@@ -6,11 +6,12 @@ html {
 }
 
 c {	
+	display: block;
 	width: 256px;
 	height: 256px;
-	font-size: 100%;
-	clip-path: circle(128px at 50% -114px);
-	white-space: pre-line;
+	margin-left: auto;
+	margin-right: auto;
+	clip-path: circle(50%);
 }
 
 main {
